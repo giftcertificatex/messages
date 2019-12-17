@@ -3,7 +3,7 @@ syntax = "proto3";
 option java_package = "com.giftok.message";
 option java_outer_classname = "CertificateMessage";
 
-message CertificateMessage {
+message Certificate {
     string id = 1;
     int64 amount = 2;
     User owner = 3;
