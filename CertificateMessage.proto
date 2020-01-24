@@ -18,5 +18,6 @@ message CertificateMessage {
 
     message User {
         string email = 1;
+		string phone = 2;
     }
 }
